@@ -27,28 +27,6 @@ class Counter extends Component {
     console.log('----------------');
   }
 
-  // componentWillReceiveProps(nextProps) {
-  //   console.log("Component Will Receive Props: ", nextProps);
-  //   console.log('----------------');
-  // }
-
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   console.log("Should Component Update: ", nextProps, nextState);
-  //   console.log('----------------');
-  //   return true;
-  // }
-
-  // componentWillUpdate(nextProps, nextState) {
-  //   console.log("Component Will Update: ", nextProps, nextState);
-  //   console.log('----------------');
-  // }
-
-  
-
-  // componentWillUnmount() {
-  //   console.log("Component Will Unmount");
-  //   console.log('----------------');
-  // }
 
   render() {
     const { counter } = this.state;
